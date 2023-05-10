@@ -1,0 +1,89 @@
+.finalProject {
+  background: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+  display: block;
+  margin: 40px auto;
+  padding: 45px;
+  width: 60%;
+  border-radius: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: #005689;
+}
+h3 {
+  text-decoration: underline #005689;
+}
+p {
+  text-align: left;
+  color: #005689;
+  padding: 20px;
+}
+.description {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  color: #005689;
+  line-height: 0.7cm;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+  border: 1px #005689;
+  border-radius: 30px;
+}
+
+.tutorialLink {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  color: #005689;
+
+  line-height: 0.7cm;
+}
+a {
+  color: #005689;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  border: #005689 1px;
+  border-radius: 30px;
+  font-size: medium;
+  font-weight: bolder;
+  padding: 15px;
+  background: #b0f0cf;
+  color: #005689;
+}
+ul {
+  color: #005689;
+  list-style-type: none;
+  padding: 20px;
+}
+.pack {
+  font-weight: bolder;
+}
+.coder {
+  display: block;
+  margin: 0 auto;
+  color: #005689;
+  font-size: smaller;
+  padding: 20px;
+  text-align: center;
+}
+.choosePack {
+  border: 1px #005689;
+  float: left;
+  width: 33.3%;
+}
+button:hover {
+  background: #005689;
+  color: #b0f0cf;
+  font-weight: bolder;
+  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+  transition: all 200ms ease-in;
+}
